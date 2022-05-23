@@ -27,8 +27,6 @@ requirements:
     - pyparsing >=2.4.7,<3.0.0
     - python
     - {{ pin_compatible('numpy') }}
-  run_constrained:
-    - dwave-preprocessing >=0.3,<0.4
 
 test:
   imports:
