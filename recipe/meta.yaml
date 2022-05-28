@@ -24,7 +24,6 @@ requirements:
     - setuptools >=46.4.0
     - wheel
   run:
-    - pyparsing >=2.4.7,<3.0.0
     - python
     - {{ pin_compatible('numpy') }}
 
