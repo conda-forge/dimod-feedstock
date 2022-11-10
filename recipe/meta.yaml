@@ -1,5 +1,5 @@
 {% set name = "dimod" %}
-{% set version = "0.12.0" %}
+{% set version = "0.12.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dimod-{{ version }}.tar.gz
-  sha256: 26c3cae7078b4295fdd8fbb62ee7d5fb8bbab0a53afe9526b853f72068e68c7c
+  sha256: 99d576966e457f2cb3645c1e865ca5090a694521840f0e70ba8336412bcaf123
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   build:
