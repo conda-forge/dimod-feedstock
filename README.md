@@ -1,11 +1,11 @@
-About dimod
-===========
+About dimod-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dimod-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dwavesystems/dimod
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dimod-feedstock/blob/main/LICENSE.txt)
 
 Summary: A shared API for binary quadratic model samplers.
 
