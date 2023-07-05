@@ -1,5 +1,5 @@
 {% set name = "dimod" %}
-{% set version = "0.12.7" %}
+{% set version = "0.12.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dimod-{{ version }}.tar.gz
-  sha256: 4bdc40238ecc27266532e9f5f272ffcafa214ab256388c903b37b9177e4b7d39
+  sha256: bd45acaf1e0b1b5b0fc9dd6ecc013b6917c63e4a28059302fa78ccae888643c4
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -21,7 +21,7 @@ requirements:
     - numpy
     - {{ compiler('cxx') }}
   host:
-    - cython >=0.29.21,<3.0
+    - cython >=0.29.33,<3.0
     - numpy
     - pip
     - python
