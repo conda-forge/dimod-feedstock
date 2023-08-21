@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dimod-{{ version }}.tar.gz
-  sha256: a5ef383802e3b689cf324a3b677f3ecbcddb232f87bc7f601c8573dbed577dfb
+  url: https://github.com/dwavesystems/dimod/archive/refs/tags/{{ version }}.tar.gz
+  sha256: 896a0dc0040daaa2774126916b666e12f2309d14d381a750fd24a1bb76870a08
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
