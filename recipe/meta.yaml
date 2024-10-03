@@ -20,6 +20,7 @@ requirements:
     - cython >=0.29.33,<3.0                  # [build_platform != target_platform]
     - numpy
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
   host:
     - cython >=0.29.33,<3.0
     - numpy
