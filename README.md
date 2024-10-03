@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dimod-feedstock
 
 Home: https://github.com/dwavesystems/dimod
 
-Package license: Apache-2.0
+Package license: Apache-2.0 AND MIT
 
 Summary: A shared API for binary quadratic model samplers.
 
