@@ -11,7 +11,7 @@ source:
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -30,7 +30,6 @@ requirements:
     - wheel
   run:
     - python
-    - {{ pin_compatible('numpy') }}
 
 test:
   imports:
