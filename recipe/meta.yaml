@@ -21,6 +21,7 @@ requirements:
     - numpy
     - {{ compiler('cxx') }}
     - {{ stdlib("c") }}
+    - {{ stdlib("c") }}
   host:
     - cython >=3.0,<4
     - numpy
@@ -44,7 +45,7 @@ about:
   home: https://github.com/dwavesystems/dimod
   summary: A shared API for binary quadratic model samplers.
   license: Apache-2.0 AND MIT
-  license_file: 
+  license_file:
     - LICENSE
     - extern/filereaderlp/LICENSE
 
