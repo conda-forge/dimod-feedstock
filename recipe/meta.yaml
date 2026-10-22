@@ -1,5 +1,5 @@
 {% set name = "dimod" %}
-{% set version = "0.12.22" %}
+{% set version = "0.12.23" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/dimod-{{ version }}.tar.gz
-  sha256: 303549a92c10318a59ff5e9089e4216661738538cd82e594b3ed692438c8be29
+  sha256: e8b360b036680b1332c9257d7dfd1094c50039cc576488ceae9d07a1cb86ebae
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -30,7 +30,7 @@ requirements:
     - setuptools >=46.4.0
     - wheel
   run:
-    - numpy >=1.17.3
+    - numpy >=2
     - python
 
 test:
